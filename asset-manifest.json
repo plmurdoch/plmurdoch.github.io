@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67b12f70.css",
+    "main.js": "/static/js/main.5fab7624.js",
+    "static/media/java.png": "/static/media/java.36860c4d8bfa6e950d5b.png",
+    "static/media/MYSQL.png": "/static/media/MYSQL.1881f32ef4e0ce53321d.png",
+    "static/media/Logo.png": "/static/media/Logo.417749c3c7a63640c83d.png",
+    "static/media/C++_Logo.png": "/static/media/C++_Logo.30a10d39063b25de4cf8.png",
+    "static/media/Firewall-IPS.png": "/static/media/Firewall-IPS.6f3e18712fb1c8441b0a.png",
+    "static/media/LinkedIn.png": "/static/media/LinkedIn.e259dce72429c7429b7f.png",
+    "static/media/IP-Communications.png": "/static/media/IP-Communications.975f12464949b8326f35.png",
+    "static/media/contact.png": "/static/media/contact.a65549e5911a141f169d.png",
+    "static/media/Front-End-Trio.png": "/static/media/Front-End-Trio.07c642fbe973e4a6442f.png",
+    "static/media/C.png": "/static/media/C.d083731589e745941c43.png",
+    "static/media/Python.png": "/static/media/Python.448fb2a83595fa5c5c8a.png",
+    "static/media/hire.png": "/static/media/hire.6813f441913fc865bb27.png",
+    "static/media/UI-UX.png": "/static/media/UI-UX.50a10d300361a34361f1.png",
+    "index.html": "/index.html",
+    "main.67b12f70.css.map": "/static/css/main.67b12f70.css.map",
+    "main.5fab7624.js.map": "/static/js/main.5fab7624.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67b12f70.css",
+    "static/js/main.5fab7624.js"
+  ]
+}
