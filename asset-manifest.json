@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ecab237.css",
+    "main.js": "/static/js/main.274e4ce1.js",
+    "static/media/Java.png": "/static/media/Java.36860c4d8bfa6e950d5b.png",
+    "static/media/SQL.png": "/static/media/SQL.1881f32ef4e0ce53321d.png",
+    "static/media/logo.png": "/static/media/logo.417749c3c7a63640c83d.png",
+    "static/media/C++.png": "/static/media/C++.30a10d39063b25de4cf8.png",
+    "static/media/Forensics.png": "/static/media/Forensics.41f510301283180e4a99.png",
+    "static/media/Firewall.png": "/static/media/Firewall.6f3e18712fb1c8441b0a.png",
+    "static/media/linkedin.png": "/static/media/linkedin.e259dce72429c7429b7f.png",
+    "static/media/IP.png": "/static/media/IP.975f12464949b8326f35.png",
+    "static/media/ML.png": "/static/media/ML.af522e3af3353b1c01b5.png",
+    "static/media/RiskPerformance.png": "/static/media/RiskPerformance.d5c0d142786f49366214.png",
+    "static/media/PenTest.png": "/static/media/PenTest.fa898616c5aba1426d10.png",
+    "static/media/Contact.png": "/static/media/Contact.a65549e5911a141f169d.png",
+    "static/media/Front-End.png": "/static/media/Front-End.07c642fbe973e4a6442f.png",
+    "static/media/Cryptography.png": "/static/media/Cryptography.3dfbc1277e7dc1cee3e3.png",
+    "static/media/C.png": "/static/media/C.d083731589e745941c43.png",
+    "static/media/Python.png": "/static/media/Python.448fb2a83595fa5c5c8a.png",
+    "static/media/employ.png": "/static/media/employ.6813f441913fc865bb27.png",
+    "static/media/UI.png": "/static/media/UI.50a10d300361a34361f1.png",
+    "index.html": "/index.html",
+    "main.3ecab237.css.map": "/static/css/main.3ecab237.css.map",
+    "main.274e4ce1.js.map": "/static/js/main.274e4ce1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ecab237.css",
+    "static/js/main.274e4ce1.js"
+  ]
+}
