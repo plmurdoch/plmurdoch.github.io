@@ -23,14 +23,17 @@ export default function About() {
         </p>
         <p>
           A BSc in Computer Science and an MEng in Telecommunications and
-          Information Security underpin work with detection models, network
-          controls, and identity configuration. Current work includes SOC alert
-          and report tuning through Log Analytics and Logic Apps.
+          Information Security provide a foundation in programming, networking,
+          and security. That background supports current work in threat
+          investigation, SOC alert and report tuning, Azure identity
+          configuration, and data protection.
         </p>
         <p>
-          Technical interests include cybersecurity engineering, threat detection,
-          security automation, and AI integration, building on operational
-          investigations, Python detection projects, and firewall labs.
+          This operational experience informs an interest in cybersecurity
+          engineering: improving threat detection and security automation,
+          including practical applications of AI. Python detection projects and
+          firewall labs complement that experience with hands-on work in
+          building, evaluating, and validating security controls.
         </p>
         <a className="quiet-link" href="#projects">
           See the technical work below ↓
