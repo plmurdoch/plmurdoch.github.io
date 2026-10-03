@@ -17,9 +17,9 @@ export default function Intro() {
           <span>Data protection.</span>
         </p>
         <p className="hero-summary">
-          Cybersecurity experience across financial services and insurance.
-          Working with endpoint and email security, identity and access, data
-          loss prevention, and incident investigations.
+          Hands-on SOC investigations, shift coverage, and on-call rotations
+          in financial services. Experience spans endpoint and email security,
+          identity and access, data protection, and phishing simulations.
         </p>
         <div className="hero-actions">
           <a className="button primary" href="#experience">
@@ -30,8 +30,7 @@ export default function Intro() {
           </a>
         </div>
         <p className="hero-focus">
-          Focused on cybersecurity analysis, SOC, and defensive security
-          operations.
+          Focused on cybersecurity analyst and defensive security roles.
         </p>
       </div>
       <aside className="profile-card" aria-label="Professional background">
@@ -52,9 +51,9 @@ export default function Intro() {
           <div>
             <dt>Operational experience</dt>
             <dd>
-              Endpoint &amp; email security
+              SOC shifts &amp; on-call rotations
               <br />
-              Phishing &amp; incident investigations
+              Security investigations
             </dd>
           </div>
           <div>
@@ -77,7 +76,7 @@ export default function Intro() {
           <li>CrowdStrike Falcon</li>
           <li>Darktrace</li>
           <li>Microsoft Purview</li>
-          <li>KnowBe4</li>
+          <li>Microsoft Sentinel</li>
         </ul>
       </div>
     </section>

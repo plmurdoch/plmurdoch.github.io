@@ -18,7 +18,7 @@ export default function About() {
       <div className="about-copy">
         <p>
           Experience spans security administration at TuGo and data security,
-          governance, and Security Operations support at Tru Cooperative Bank,
+          governance, and hands-on SOC investigations at Tru Cooperative Bank,
           formerly First West Credit Union.
         </p>
         <p>
