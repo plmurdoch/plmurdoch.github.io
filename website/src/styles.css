@@ -641,14 +641,6 @@ h1 > span {
   max-width: 365px;
   margin-top: 25px;
 }
-.contact-email {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-  font-size: clamp(14px, 1.55vw, 20px);
-  margin-top: 28px;
-  overflow-wrap: anywhere;
-}
 .contact-links {
   display: flex;
   gap: 24px;
@@ -894,9 +886,6 @@ h1 > span {
     grid-template-columns: 1fr;
     gap: 18px;
   }
-  .contact-email {
-    font-size: 15px;
-  }
 }
 @media (max-width: 680px) {
   .shell {
@@ -1087,9 +1076,6 @@ h1 > span {
   .contact-summary {
     font-size: 16px;
   }
-  .contact-email {
-    font-size: 18px;
-  }
   .contact-links a {
     font-size: 14px;
   }
@@ -1143,9 +1129,6 @@ h1 > span {
   }
   .form-row {
     grid-template-columns: 1fr;
-  }
-  .contact-email {
-    font-size: 16px;
   }
   .brand {
     gap: 10px;

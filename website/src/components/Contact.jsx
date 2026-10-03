@@ -40,12 +40,8 @@ export default function Contact() {
           </h2>
           <p className="contact-summary">
             For cybersecurity analysis, SOC, and security operations
-            opportunities, email me to request my resume or discuss my experience.
+            opportunities, use the form to request my resume or discuss my experience.
           </p>
-          <a className="contact-email" href={`mailto:${profile.email}`}>
-            {profile.email}
-            <Arrow diagonal />
-          </a>
           <div className="contact-links">
             <a href={profile.linkedin}>
               LinkedIn <Arrow diagonal />
@@ -55,6 +51,9 @@ export default function Contact() {
             </a>
           </div>
         </div>
+        <noscript>
+          <p className="contact-summary">Enable JavaScript to use the contact form.</p>
+        </noscript>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -97,7 +96,7 @@ export default function Contact() {
             disabled={status === "sending"}
           />
           <p className="form-note">
-            Messages are delivered through EmailJS. You can also email directly.
+            Messages are delivered through EmailJS.
           </p>
           <button
             className="button primary"
@@ -111,7 +110,7 @@ export default function Contact() {
             {status === "sent"
               ? "Message sent. Thank you for getting in touch."
               : status === "error"
-                ? "Your message could not be sent. Please try again or use the email link."
+                ? "Your message could not be sent. Please try again later."
                 : status === "sending"
                   ? "Sending your message."
                   : ""}

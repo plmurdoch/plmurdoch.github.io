@@ -1,7 +1,6 @@
 export const profile = {
   name: "Payton Murdoch",
   location: "Vancouver, British Columbia",
-  email: "payton.murdoch@gmail.com",
   linkedin: "https://www.linkedin.com/in/plmurdoch/",
   github: "https://github.com/plmurdoch",
 };
