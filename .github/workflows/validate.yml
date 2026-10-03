@@ -1,0 +1,26 @@
+name: Validate portfolio
+on:
+  push:
+    branches: [main]
+    paths: ["website/**", ".github/workflows/validate.yml"]
+  pull_request:
+    paths: ["website/**", ".github/workflows/validate.yml"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: website
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - name: Check that published assets match the source
+        run: git diff --exit-code -- ../index.html ../assets ../favicon.svg ../social-preview.png ../payton-murdoch-resume.pdf ../robots.txt ../sitemap.xml ../.nojekyll
