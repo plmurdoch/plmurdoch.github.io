@@ -14,15 +14,15 @@ export const experience = [
     summary:
       "SOC investigations, alert tuning, identity configuration, and data protection in financial services.",
     bullets: [
-      "Work SOC shifts and on-call rotations, conducting security investigations using Microsoft Sentinel, Microsoft Defender, Darktrace, Microsoft Purview, Fortra PhishLabs, and RedSeal.",
-      "Participate in tuning SOC alerts and reports using Azure Log Analytics and Azure Logic Apps.",
-      "Coordinate with vendors on a domain change project and update SSO configurations in the Azure identity provider.",
-      "Manage Fortra Terranova phishing simulation campaigns, developing recurring custom scenarios to maintain employee awareness of phishing threats.",
-      "Collect security metrics for monthly reporting.",
-      "Tested Microsoft Purview sensitivity labels and data loss prevention policies with users.",
-      "Performed a gap analysis of cybersecurity tools in the Azure environment.",
-      "Researched and drafted a departmental RACI for customer identity and access management.",
-      "Delivered phishing-awareness guidance to front-line staff.",
+      "Investigate security alerts and reported threats during SOC shifts and on-call rotations.",
+      "Contribute to SOC alert and reporting improvements using Azure Log Analytics and Logic Apps.",
+      "Coordinate vendor SSO updates in Azure for an organizational domain change.",
+      "Design and manage custom phishing simulations in Fortra Terranova.",
+      "Compile security metrics for monthly reporting.",
+      "Validated Microsoft Purview sensitivity labeling and DLP policies through user testing.",
+      "Assessed gaps in Azure cybersecurity tooling.",
+      "Developed a departmental RACI for customer identity and access management.",
+      "Delivered phishing-awareness presentations to front-line staff.",
     ],
     tags: [
       "SOC shifts & on-call",
@@ -45,9 +45,9 @@ export const experience = [
     summary:
       "Security administration across endpoint, email, and cloud services.",
     bullets: [
-      "Served as the main cybersecurity contact, administering CrowdStrike, Microsoft, Darktrace, Fortinet, and Imperva services for the AWS environment.",
-      "Supported threat risk assessments, incident readiness and response, and disaster recovery planning.",
-      "Supported security training administration and kept leadership informed about emerging security trends.",
+      "Acted as the primary cybersecurity contact, administering endpoint, email, and AWS security services.",
+      "Assisted with threat risk assessments, incident preparedness and response, and disaster recovery planning.",
+      "Supported security training and advised leadership on emerging security trends.",
     ],
     tags: [
       "CrowdStrike Falcon",
@@ -65,9 +65,11 @@ export const experience = [
     summary:
       "Security metrics, phishing programs, and framework-informed project work.",
     bullets: [
-      "Researched security practices against NIST, CIS, and OSFI frameworks; gathered KPIs and KRIs and assessed proposed metrics.",
-      "Improved the realism of phishing training and scripted active-user update and deletion lists for the training program.",
-      "Developed a process for gathering IT project security requirements and supported data security policy documentation and awareness content.",
+      "Researched NIST, CIS, and OSFI guidance to inform security project work.",
+      "Reported security KPIs and KRIs and assessed the feasibility of proposed metrics.",
+      "Improved phishing simulation realism and automated training-user update and deletion lists.",
+      "Defined a process for collecting IT project security requirements.",
+      "Contributed to data security policy documentation and employee awareness content.",
     ],
     tags: ["NIST · CIS · OSFI", "KPI / KRI", "Phishing awareness", "Scripting"],
   },
