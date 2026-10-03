@@ -25,7 +25,7 @@ await rm(path.join(project, ".ssr"), { recursive: true, force: true });
 // Pages continues to publish main / (root). Only generated paths are replaced.
 for (const name of ["assets", "static"])
   await rm(path.join(repository, name), { recursive: true, force: true });
-for (const name of ["asset-manifest.json", "style.css", "logo.png"])
+for (const name of ["asset-manifest.json", "style.css", "logo.png", "payton-murdoch-resume.pdf"])
   await rm(path.join(repository, name), { force: true });
 for (const name of await readdir(path.join(project, "dist")))
   await cp(path.join(project, "dist", name), path.join(repository, name), {

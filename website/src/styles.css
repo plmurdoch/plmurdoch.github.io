@@ -173,12 +173,6 @@ h3 {
   gap: 10px;
   padding-block: 12px;
 }
-.navigation .nav-resume {
-  padding: 10px 15px;
-  border: 1px solid #526674;
-  border-radius: 3px;
-  margin-left: 6px;
-}
 .menu-toggle {
   display: none;
 }
@@ -807,9 +801,6 @@ h1 > span {
   }
   .navigation a {
     padding: 12px 8px;
-  }
-  .navigation .nav-resume {
-    margin: 10px 0 0;
   }
   .nav-shell {
     min-height: 75px;

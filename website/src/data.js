@@ -4,12 +4,10 @@ export const profile = {
   email: "payton.murdoch@gmail.com",
   linkedin: "https://www.linkedin.com/in/plmurdoch/",
   github: "https://github.com/plmurdoch",
-  resume: "/payton-murdoch-resume.pdf",
 };
 export const experience = [
   {
     role: "Data Security & Governance Analyst",
-    qualifier: "Trainee",
     company: "Tru Cooperative Bank",
     context: "Formerly First West Credit Union",
     dates: "Oct 2025 — Present",
@@ -31,13 +29,13 @@ export const experience = [
     ],
   },
   {
-    role: "Cyber Security Administrator",
-    company: "TuGo",
+    role: "Cybersecurity Administrator",
+    company: "TuGo Insurance",
     dates: "Jun 2025 — Oct 2025",
     summary:
       "Security administration across endpoint, email, and cloud services.",
     bullets: [
-      "Served as the main cybersecurity contact, administering CrowdStrike, Microsoft, Darktrace, Fortinet, and Imperva services.",
+      "Served as the main cybersecurity contact, administering CrowdStrike, Microsoft, Darktrace, Fortinet, and Imperva services for the AWS environment.",
       "Supported threat risk assessments, incident readiness and response, and disaster recovery planning.",
       "Supported security training administration and kept leadership informed about emerging security trends.",
     ],
@@ -50,7 +48,7 @@ export const experience = [
     ],
   },
   {
-    role: "Cyber Security Project Coordinator",
+    role: "Cybersecurity Project Coordinator",
     qualifier: "Part-time",
     company: "First West Credit Union",
     dates: "Jul 2024 — Jun 2025",
@@ -75,6 +73,8 @@ export const skills = [
       "CrowdStrike Falcon",
       "Darktrace",
       "KnowBe4",
+      "Microsoft Sentinel",
+      "Abnormal AI",
     ],
   },
   {
@@ -100,7 +100,7 @@ export const skills = [
     number: "04",
     name: "Technical foundations & labs",
     description:
-      "Python and SQL, network traffic analysis, firewall configuration, digital forensics, and detection-model development. Security lab tools are listed separately from workplace platforms.",
+      "Python and SQL, network traffic analysis, firewall configuration, digital forensics using process memory dumps, network captures, and file-system analysis, and detection-model development. Security lab tools are listed separately from workplace platforms.",
     tools: [
       "Python · SQL",
       "Wireshark · GNS3",

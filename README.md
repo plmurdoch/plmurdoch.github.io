@@ -32,14 +32,13 @@ Review and commit `website/` and generated root changes together. The build remo
 - `website/src/components/`: navigation, hero, about, experience, skills, projects, credentials, contact, and footer.
 - `website/src/styles.css`: typography, layout, breakpoints, focus, reduced motion, and print styling.
 - `website/index.html`: metadata and structured data.
-- `website/public/`: favicon, social preview, resume PDF, robots, and sitemap.
-- `website/scripts/generate-resume.py`: public resume generation using the same experience/project data (requires reportlab). Regenerate the resume when experience changes.
+- `website/public/`: favicon, social preview, robots, and sitemap.
 
-Experience is grounded in the May 2026 resume and indexed LinkedIn profile checked October 2026. Current employer is Tru Cooperative Bank (formerly First West Credit Union); LinkedIn identifies the current appointment as trainee. Workplace platform experience and academic lab tools are distinguished. Academic team projects are labeled; no unverified performance metrics are published.
+Experience is grounded in the owner-provided April resume and indexed LinkedIn profile. Current employer is Tru Cooperative Bank (formerly First West Credit Union); the current role title follows the supplied resume. Workplace platform experience and academic lab tools are distinguished. Academic team projects are labeled; no unverified performance metrics are published.
 
-The existing EmailJS service/template/public key is retained. The SDK loads only on submission; fields have labels, validation, pending state, and visible feedback. These EmailJS identifiers are client-side public configuration, not server secrets. Live message delivery requires an active service and was not tested by sending unsolicited messages. Direct email and LinkedIn are independent contact alternatives.
+The existing EmailJS service/template/public key is retained. The SDK loads only on submission; fields have labels, validation, pending state, and visible feedback. These EmailJS identifiers are client-side public configuration, not server secrets. Live message delivery requires an active service and was not tested by sending unsolicited messages. Direct email is available independently of the form. Profile links remain available as professional references.
 
-No third-party fonts, animation library, scroll library, or external icon library is required. The monogram is preserved as text/SVG. The resume uses a professional email and omits the personal phone number from the older resume.
+No third-party fonts, animation library, scroll library, or external icon library is required. The monogram is preserved as text/SVG. No resume PDF or personal phone number is published. Recruiters can request further information by email. The build removes the previously published resume PDF so it cannot be reintroduced by stale generated output.
 
 ## Manual responsive review
 

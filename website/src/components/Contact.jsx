@@ -40,7 +40,7 @@ export default function Contact() {
           </h2>
           <p className="contact-summary">
             For cybersecurity analysis, SOC, and security operations
-            opportunities, connect by email or LinkedIn.
+            opportunities, email me to request my resume or discuss my experience.
           </p>
           <a className="contact-email" href={`mailto:${profile.email}`}>
             {profile.email}
@@ -52,9 +52,6 @@ export default function Contact() {
             </a>
             <a href={profile.github}>
               GitHub <Arrow diagonal />
-            </a>
-            <a href={profile.resume}>
-              Resume PDF <Arrow diagonal />
             </a>
           </div>
         </div>

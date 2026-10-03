@@ -25,8 +25,8 @@ export default function Intro() {
           <a className="button primary" href="#experience">
             Explore experience <Arrow />
           </a>
-          <a className="button secondary" href={profile.resume} download>
-            Download resume <Arrow diagonal />
+          <a className="button secondary" href={`mailto:${profile.email}`}>
+            Email for more information <Arrow diagonal />
           </a>
         </div>
         <p className="hero-focus">

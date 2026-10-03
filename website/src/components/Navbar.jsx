@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { profile } from "../data";
-import { Arrow } from "./Shared";
 const links = [
   ["experience", "Experience"],
   ["skills", "Skills"],
@@ -62,9 +60,6 @@ export default function Navbar() {
                 {label}
               </a>
             ))}
-            <a className="nav-resume" href={profile.resume}>
-              Resume <Arrow diagonal />
-            </a>
           </nav>
         </div>
       </header>

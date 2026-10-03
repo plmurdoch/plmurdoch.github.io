@@ -23,4 +23,4 @@ jobs:
       - run: npm ci
       - run: npm run build
       - name: Check that published assets match the source
-        run: git diff --exit-code -- ../index.html ../assets ../favicon.svg ../social-preview.png ../payton-murdoch-resume.pdf ../robots.txt ../sitemap.xml ../.nojekyll
+        run: git diff --exit-code -- ../index.html ../assets ../favicon.svg ../social-preview.png ../robots.txt ../sitemap.xml ../.nojekyll
