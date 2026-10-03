@@ -27,8 +27,8 @@ export default function Intro() {
           </a>
         </div>
         <p className="hero-focus">
-          Interested in cybersecurity engineering, detection, and security
-          automation, alongside hands-on security operations.
+          Interested in cybersecurity engineering, threat detection, and security
+          automation, with a focus on AI integration.
         </p>
       </div>
       <aside className="profile-card" aria-label="Professional background">

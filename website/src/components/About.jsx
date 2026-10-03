@@ -28,9 +28,9 @@ export default function About() {
           and report tuning through Log Analytics and Logic Apps.
         </p>
         <p>
-          Technical interests include cybersecurity engineering, detection, and
-          automation, building on operational investigations, Python projects,
-          and firewall labs.
+          Technical interests include cybersecurity engineering, threat detection,
+          security automation, and AI integration, building on operational
+          investigations, Python detection projects, and firewall labs.
         </p>
         <a className="quiet-link" href="#projects">
           See the technical work below ↓
