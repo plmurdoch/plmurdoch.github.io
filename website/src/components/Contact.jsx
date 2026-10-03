@@ -39,7 +39,7 @@ export default function Contact() {
             security.
           </h2>
           <p className="contact-summary">
-            For cybersecurity analyst and defensive security opportunities,
+            For cybersecurity engineering, detection, automation, and analyst opportunities,
             use the form to request my resume or discuss my experience.
           </p>
           <div className="contact-links">

@@ -12,7 +12,7 @@ export default function Experience() {
         number="02"
         eyebrow="Professional experience"
         title="Security work, in practice."
-        description="Experience across financial services and insurance, from security administration to data protection and investigation support."
+        description="Experience across financial services and insurance, covering SOC investigations, alert tuning, identity configuration, and data protection."
       />
       <div className="experience-list">
         {experience.map((job) => (

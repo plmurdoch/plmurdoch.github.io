@@ -12,9 +12,10 @@ export const experience = [
     dates: "Oct 2025 — Present",
     current: true,
     summary:
-      "SOC investigations, identity configuration, phishing simulations, and data protection in financial services.",
+      "SOC investigations, alert tuning, identity configuration, and data protection in financial services.",
     bullets: [
       "Work SOC shifts and on-call rotations, conducting security investigations using Microsoft Sentinel, Microsoft Defender, Darktrace, Microsoft Purview, Fortra PhishLabs, and RedSeal.",
+      "Participate in tuning SOC alerts and reports using Azure Log Analytics and Azure Logic Apps.",
       "Coordinate with vendors on a domain change project and update SSO configurations in the Azure identity provider.",
       "Manage Fortra Terranova phishing simulation campaigns, developing recurring custom scenarios to maintain employee awareness of phishing threats.",
       "Collect security metrics for monthly reporting.",
@@ -25,6 +26,8 @@ export const experience = [
     ],
     tags: [
       "SOC shifts & on-call",
+      "Log Analytics",
+      "Logic Apps",
       "Microsoft Sentinel",
       "Microsoft Defender",
       "Darktrace",
@@ -72,9 +75,9 @@ export const experience = [
 export const skills = [
   {
     number: "01",
-    name: "Security operations",
+    name: "Detection & security operations",
     description:
-      "SOC shifts and on-call investigations, endpoint and email security, incident response support, SIEM and log management, and vulnerability management.",
+      "SOC shifts and on-call investigations, alert and report tuning with Log Analytics and Logic Apps, endpoint and email security, SIEM and log management, and incident response support.",
     tools: [
       "Microsoft 365 Defender",
       "CrowdStrike Falcon",
@@ -82,6 +85,8 @@ export const skills = [
       "Fortra PhishLabs",
       "RedSeal",
       "Microsoft Sentinel",
+      "Azure Log Analytics",
+      "Azure Logic Apps",
       "Abnormal AI",
     ],
   },
@@ -106,7 +111,7 @@ export const skills = [
   },
   {
     number: "04",
-    name: "Technical foundations & labs",
+    name: "Programming & security labs",
     description:
       "Python and SQL, network traffic analysis, firewall configuration, digital forensics using process memory dumps, network captures, and file-system analysis, and detection-model development. Security lab tools are listed separately from workplace platforms.",
     tools: [

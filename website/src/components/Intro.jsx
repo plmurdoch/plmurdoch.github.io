@@ -14,12 +14,12 @@ export default function Intro() {
         <p className="hero-position">
           Security operations.
           <br />
-          <span>Data protection.</span>
+          <span>Detection &amp; automation.</span>
         </p>
         <p className="hero-summary">
-          Hands-on SOC investigations, shift coverage, and on-call rotations
-          in financial services. Experience spans endpoint and email security,
-          identity and access, data protection, and phishing simulations.
+          Hands-on SOC investigations and on-call rotations in financial services.
+          Work spans alert tuning, Azure identity configuration, and data
+          protection, backed by Python detection projects and security labs.
         </p>
         <div className="hero-actions">
           <a className="button primary" href="#experience">
@@ -30,7 +30,8 @@ export default function Intro() {
           </a>
         </div>
         <p className="hero-focus">
-          Focused on cybersecurity analyst and defensive security roles.
+          Exploring cybersecurity engineering, detection, and security automation
+          roles alongside hands-on security operations.
         </p>
       </div>
       <aside className="profile-card" aria-label="Professional background">
@@ -58,7 +59,7 @@ export default function Intro() {
           </div>
           <div>
             <dt>Data protection</dt>
-            <dd>Microsoft Purview · DLP · IAM</dd>
+            <dd>Microsoft Purview · DLP · Azure SSO</dd>
           </div>
           <div>
             <dt>Credentials</dt>

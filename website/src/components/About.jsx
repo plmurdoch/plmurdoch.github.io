@@ -10,9 +10,9 @@ export default function About() {
           <span>01</span>About
         </p>
         <h2 id="about-title">
-          Connecting security operations
+          Connecting investigations
           <br />
-          with data protection.
+          with security engineering.
         </h2>
       </div>
       <div className="about-copy">
@@ -22,9 +22,15 @@ export default function About() {
           formerly First West Credit Union.
         </p>
         <p>
-          A computer science background and an MEng in Telecommunications and
-          Information Security support practical work with security platforms,
-          investigation workflows, network analysis, and security controls.
+          A BSc in Computer Science and an MEng in Telecommunications and
+          Information Security underpin work with detection models, network
+          controls, and identity configuration. Current work includes SOC alert
+          and report tuning through Log Analytics and Logic Apps.
+        </p>
+        <p>
+          The next career focus is cybersecurity engineering: developing
+          detection and automation skills while drawing on operational
+          investigations, Python projects, and firewall labs.
         </p>
         <a className="quiet-link" href="#projects">
           See the technical work below ↓
