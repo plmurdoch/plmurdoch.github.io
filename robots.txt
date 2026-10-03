@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /website/
+Sitemap: https://plmurdoch.github.io/sitemap.xml
