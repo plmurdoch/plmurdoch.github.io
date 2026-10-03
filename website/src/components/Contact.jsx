@@ -39,8 +39,8 @@ export default function Contact() {
             security.
           </h2>
           <p className="contact-summary">
-            For cybersecurity analysis, SOC, and security operations
-            opportunities, use the form to request my resume or discuss my experience.
+            For cybersecurity analyst and defensive security opportunities,
+            use the form to request my resume or discuss my experience.
           </p>
           <div className="contact-links">
             <a href={profile.linkedin}>
