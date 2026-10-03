@@ -51,11 +51,7 @@ export default function Intro() {
         <dl className="profile-facts">
           <div>
             <dt>Operational experience</dt>
-            <dd>
-              SOC shifts &amp; on-call rotations
-              <br />
-              Security investigations
-            </dd>
+            <dd>Security investigations</dd>
           </div>
           <div>
             <dt>Data protection</dt>
