@@ -13,7 +13,7 @@ export default function Footer() {
       </div>
       <div className="footer-detail">
         <p>
-          Career focus: Cybersecurity Engineering · Detection &amp; Automation ·
+          Technical interests: Cybersecurity Engineering · Detection &amp; Automation ·
           Security Operations
         </p>
         <p>© {new Date().getFullYear()} Payton Murdoch. All rights reserved.</p>

@@ -39,8 +39,8 @@ export default function Contact() {
             security.
           </h2>
           <p className="contact-summary">
-            For cybersecurity engineering, detection, automation, and analyst opportunities,
-            use the form to request my resume or discuss my experience.
+            For professional inquiries, use the form to request further information
+            or discuss my experience.
           </p>
           <div className="contact-links">
             <a href={profile.linkedin}>

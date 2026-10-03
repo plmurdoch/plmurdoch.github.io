@@ -28,9 +28,9 @@ export default function About() {
           and report tuning through Log Analytics and Logic Apps.
         </p>
         <p>
-          The next career focus is cybersecurity engineering: developing
-          detection and automation skills while drawing on operational
-          investigations, Python projects, and firewall labs.
+          Technical interests include cybersecurity engineering, detection, and
+          automation, building on operational investigations, Python projects,
+          and firewall labs.
         </p>
         <a className="quiet-link" href="#projects">
           See the technical work below ↓

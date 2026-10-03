@@ -12,14 +12,11 @@ export default function Intro() {
           Payton Murdoch<span>.</span>
         </h1>
         <p className="hero-position">
-          Security operations.
+          Security Operations
           <br />
-          <span>Detection &amp; automation.</span>
-        </p>
-        <p className="hero-summary">
-          Hands-on SOC investigations and on-call rotations in financial services.
-          Work spans alert tuning, Azure identity configuration, and data
-          protection, backed by Python detection projects and security labs.
+          Data Security
+          <br />
+          <span>Security Engineering</span>
         </p>
         <div className="hero-actions">
           <a className="button primary" href="#experience">
@@ -30,8 +27,8 @@ export default function Intro() {
           </a>
         </div>
         <p className="hero-focus">
-          Exploring cybersecurity engineering, detection, and security automation
-          roles alongside hands-on security operations.
+          Interested in cybersecurity engineering, detection, and security
+          automation, alongside hands-on security operations.
         </p>
       </div>
       <aside className="profile-card" aria-label="Professional background">
